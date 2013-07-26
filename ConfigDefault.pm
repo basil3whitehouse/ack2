@@ -239,6 +239,9 @@ sub _options_block {
 # Plone http://plone.org/
 --type-add=plone:ext:pt,cpt,metadata,cpy,py
 
+# Maven http://maven.apache.org/
+--type-add=pom:is:pom.xml
+
 # Python http://www.python.org/
 --type-add=python:ext:py
 --type-add=python:firstlinematch:/^#!.*\bpython/
